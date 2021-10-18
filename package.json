@@ -1,0 +1,19 @@
+{
+  "name": "0dc65323-c737-4428-b7b9-c923868d6c53",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamneo-production/0dc65323-c737-4428-b7b9-c923868d6c53.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamneo-production/0dc65323-c737-4428-b7b9-c923868d6c53/issues"
+  },
+  "homepage": "https://github.com/iamneo-production/0dc65323-c737-4428-b7b9-c923868d6c53#readme"
+}
