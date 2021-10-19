@@ -1,0 +1,21 @@
+#userBookingBody{
+    background-color: rgb(245, 241, 237);
+    width:96%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    border-radius: 15px ;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+
+}
+.headerbar{
+    color: white ;
+    background-color: rgb(190, 94, 166);
+    
+
+}

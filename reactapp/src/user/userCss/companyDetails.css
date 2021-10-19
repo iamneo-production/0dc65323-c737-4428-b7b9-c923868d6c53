@@ -1,0 +1,40 @@
+.container {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #F2F2F2;
+    width:90%;
+}
+
+.box {
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 2px 2px;
+    margin: 5px 10px;
+    width:90%;
+}
+
+table {
+    background-color: #F2F2F2;
+    padding: 2px 2px;
+    margin: 15px 5px;
+}
+
+tr {
+    /* background-color: aquamarine; */
+    font-size: medium;
+}
+
+td {
+    padding-right: 15rem;
+    /* background-color: burlywood; */
+}
+
+.Available {
+    color: green;
+  outline: none;
+}
+
+.booked {
+    color: red;
+}

@@ -1,0 +1,74 @@
+
+form{
+    width: 35%;
+    margin: auto;
+    background-color: rgb(226, 224, 224);
+    border-radius: 2%;
+    padding-bottom: 10px;
+    margin-top: 8%;
+  }
+  
+  .title{
+    text-align: center;
+    padding-top: 20%;
+    font-size: 35px;
+  }
+  
+  .emails{
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom: 3%;
+    text-align: center;
+  }
+  .passwords{
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom: 3%;
+    text-align: center; 
+  }
+  input{
+    background-color: #b9b8b8;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: 2px solid #b9b8b8;
+  }
+  
+  input::placeholder {
+    color: black;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  .submitButtons{
+    margin:auto;
+    margin-top:25px;
+    display:block;
+    background-color: #C873AC;
+    border: 2px solid #C873AC;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+ outline: none;
+    border-radius: 10px;
+    width: 70%;
+    transition-duration: 0.4s;
+  }
+  
+  .submitButtons:hover {
+    background-color: #b65897; 
+    color: white;
+  }
+
+  .userSignupLink{
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:15px;
+  }
+  
+  .userSignupLink a{
+    text-decoration: none;
+    color: #0000EE;
+  }

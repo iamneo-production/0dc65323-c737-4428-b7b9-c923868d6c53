@@ -1,0 +1,76 @@
+
+   .profilephoto {
+    background-color: rgb(235, 233, 233);
+    width: 40%;
+    height: 550px;
+  }
+  .details {
+    display: flex;
+  }
+  .detail-left{
+      margin-top:-50px;
+  }
+  .profile-content {
+ 
+    width: 95%;
+    height: 300px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 42px;
+    align-items: start;
+    display: flex;
+    justify-content: space-between;
+    font-family: Red Hat Text;
+    font-size: 22px;
+    line-height: 29px;
+  }
+ 
+  
+  tr {
+    height: 45px;
+  }
+  /* td {
+    font-family: Red Hat Text;
+    font-size: 22px;
+    line-height: 29px;
+  } */
+  
+  .left-label {
+    width: 120px;
+  }
+  
+  
+  .value {
+    width: 218px;
+  }
+  
+  .imgdiv {
+    text-align: center;
+  }
+  .img {
+    margin: 14%;
+    margin-bottom: 0%;
+    border-radius: 50%;
+  }
+  .submit {
+    width: 60%;
+    height: 40px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+    background-color: #c873ac;
+    border: 2px solid #c873ac;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+  }
+  .editProfile-btn {
+    text-decoration: none;
+  }
+  .edit-text {
+    font-family: Red Hat Text;
+    font-size: 17px;
+    line-height: 22px;
+  }
