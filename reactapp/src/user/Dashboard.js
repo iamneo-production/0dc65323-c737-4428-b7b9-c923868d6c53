@@ -1,30 +1,43 @@
-import React from 'react'
-import { NavLink } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "./navbar";
 import "./userCss/dashboard.css";
-export default function Dashboard() {
-    return (
-        <>
-       <Navbar/>
+export default function UserDashboard() {
+  return (
+    <>
+      <Navbar />
       <div className="userDashboard">
-      <NavLink to="/companyDetails"> <div className="Company_one">
-                 <img src="Capture.png"></img>
-                  <p1>Company Name</p1>
-                  <p2>Company Address</p2>
-                  <p3>Mobile Number </p3>
-             </div></NavLink> 
-             <NavLink to="/companyDetails">     <div className="Company_two">
-                 <img src="Capture.png"></img>
-                  <p1>Company Name</p1>
-                  <p2>Company Address</p2>
-                  <p3>Mobile Number </p3>
-             </div> </NavLink>
-             <NavLink to="/companyDetails">        <div className="Company_three">
-                 <img src="Capture.png"></img>
-                  <p1>Company Name</p1>
-                  <p2>Company Address</p2>
-                  <p3>Mobile Number </p3>
-             </div> </NavLink>
-        </div></>
-    )
+        <div className="company-detail">
+          <Link to="/user/company-details" className="company-link">
+            <div className="img-detail">
+              <img src="../images/company-profile.png" alt="company-img" />
+              <div className="company-name">Company Name</div>
+            </div>
+            <div className="comp">Company Address</div>
+            <div className="comp">Mobile Number</div>
+          </Link>
+        </div>
+        <div className="company-detail">
+          <Link to="/user/company-details" className="company-link">
+            <div className="img-detail">
+              <img src="../images/company-profile.png" alt="company-img" />
+              <div className="company-name">Company Name</div>
+            </div>
+            <div className="comp">Company Address</div>
+            <div className="comp">Mobile Number</div>
+          </Link>
+        </div>
+        <div className="company-detail">
+          <Link to="/user/company-details" className="company-link">
+            <div className="img-detail">
+              <img src="../images/company-profile.png" alt="company-img" />
+              <div className="company-name">Company Name</div>
+            </div>
+            <div className="comp">Company Address</div>
+            <div className="comp">Mobile Number</div>
+          </Link>
+        </div>
+      </div>
+    </>
+  );
 }

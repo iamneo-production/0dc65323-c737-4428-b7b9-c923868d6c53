@@ -1,16 +1,19 @@
-import React from 'react'
+import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "./navbar";
 import "./userCss/userprofileedit.css";
-export default function profileEdit() {
-    return (
-        <>
-         <Navbar />
+export default function UserProfileEdit() {
+  return (
+    <>
+      <Navbar />
       <div className="edit-profile" id="adminEditBox">
         <form id="edit-profile">
-     <NavLink to="/Profile">     <button type="submit" className="back">
-             back
-          </button></NavLink>
+          <NavLink to="/Profile">
+            {" "}
+            <button type="submit" className="back">
+              back
+            </button>
+          </NavLink>
           <br />
           <label className="editProfile-label">Name</label>
           <div className="form-group">
@@ -62,13 +65,17 @@ export default function profileEdit() {
             />
           </div>
 
-         
-
-          <NavLink to="/Profile"><button type="submit" className="savechanges" id="profileEditButton">
-            Save Changes
-          </button></NavLink>
+          <NavLink to="/Profile">
+            <button
+              type="submit"
+              className="savechanges"
+              id="profileEditButton"
+            >
+              Save Changes
+            </button>
+          </NavLink>
         </form>
       </div>
     </>
-    )
+  );
 }

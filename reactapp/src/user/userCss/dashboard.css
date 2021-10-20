@@ -1,106 +1,38 @@
-.userDashboard{
-    position: relative;
-  width: 1400px;
-  height: 500px;
-  
-  background: #bbb2b954;
-  }
-  .Company_one{
-   
-    position: absolute;
-  width: 1200px;
-  height: 75px;
-  left: 50px;
-  top: 93px;
-  
-  background: #d3cece77;
+.userDashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.company-detail {
+  width: 80%;
+  background: #f2f2f2;
   border-radius: 10px;
-  }
-  .Company_one img{
-    border-radius: 40px;
-    height: 70px;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-  .Company_one p1{
-    font-size: 19px;
-    margin-top: 10px;
-    margin-left:50px;
-    margin-bottom:-100px;
-  }
-  .Company_one p2{
-    font-size: 19px;
-    margin-left:300px;
-    margin-top:-45px;
-  }
-  .Company_one p3{
-    font-size: 19px;
-    margin-left:300px;
-    margin-top:-45px;
-  }
-  .Company_two{
-    margin-top: 171px;
-    position: absolute;
-  width: 1200px;
-  height: 75px;
-  left: 50px;
-  top: 93px;
-  
-  background: #d3cece77;
-  border-radius: 10px;
-  }
-  .Company_two img{
-    border-radius: 40px;
-    height: 70px;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-  .Company_two p1{
-    font-size: 19px;
-    margin-left:50px;
-    margin-bottom:-100px;
-  }
-  .Company_two p2{
-    font-size: 19px;
-    margin-left:300px;
-    margin-top:-45px;
-  }
-  .Company_two p3{
-    font-size: 19px;
-    margin-left:300px;
-    margin-top:-45px;
-  }
-  /*-------**/
-  .Company_three{
-   
-    position: absolute;
-  width: 1200px;
-  height: 75px;
-  margin-top: 85px;
-  left: 50px;
-  top: 93px;
-  
-  background: #d3cece77;
-  border-radius: 10px;
-  }
-  .Company_three img{
-    border-radius: 40px;
-    height: 70px;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-  .Company_three p1{
-    font-size: 19px;
-    margin-left:50px;
-    margin-bottom:-100px;
-  }
-  .Company_three p2{
-    font-size: 19px;
-    margin-left:300px;
-    margin-top:-45px;
-  }
-  .Company_three p3{
-    font-size: 19px;
-    margin-left:300px;
-    margin-top:-45px;
-  }
+  padding: 10px 80px 10px 25px;
+  font-family: Red Hat Text;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 20px 0;
+}
+.company-detail .company-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.company-detail .img-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.company-detail .company-name {
+  padding-left: 30px;
+}
+.company-detail .comp {
+  font-size: 25px;
+  line-height: 33px;
+}
