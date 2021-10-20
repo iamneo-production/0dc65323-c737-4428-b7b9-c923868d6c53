@@ -41,10 +41,12 @@ html,
   border-radius: 12px;
   height: 50px;
   border: none;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 input::placeholder {
-  color: black;
+  color: #4b4646;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 import "./css/dashboard.css";
 import { Link } from "react-router-dom";
 
-export default function dashboard() {
+export default function Dashboard() {
   // const screenClass = useScreenClass();
   return (
     <>
@@ -24,12 +24,18 @@ export default function dashboard() {
             <span>
               <p className="buttons">
                 <button type="submit" className="edit">
-                  <img className="edit-icon" src="images/edit.png" alt="edit" />{" "}
+                  <Link to="/admin/edit-hall">
+                    <img
+                      className="edit-icon"
+                      src="../images/edit.png"
+                      alt="edit"
+                    />
+                  </Link>{" "}
                 </button>
                 <button type="submit" className="delete">
                   <img
                     className="delete-icon"
-                    src="images/delete.png"
+                    src="../images/delete.png"
                     alt="delete"
                   />
                 </button>
@@ -49,12 +55,18 @@ export default function dashboard() {
             <span>
               <p className="buttons">
                 <button type="submit" className="edit">
-                  <img className="edit-icon" src="images/edit.png" alt="edit" />{" "}
+                  <Link to="/admin/edit-hall">
+                    <img
+                      className="edit-icon"
+                      src="../images/edit.png"
+                      alt="edit"
+                    />
+                  </Link>{" "}
                 </button>
                 <button type="submit" className="delete">
                   <img
                     className="delete-icon"
-                    src="images/delete.png"
+                    src="../images/delete.png"
                     alt="delete"
                   />
                 </button>
@@ -74,12 +86,18 @@ export default function dashboard() {
             <span>
               <p className="buttons">
                 <button type="submit" className="edit">
-                  <img className="edit-icon" src="images/edit.png" alt="edit" />{" "}
+                  <Link to="/admin/edit-hall">
+                    <img
+                      className="edit-icon"
+                      src="../images/edit.png"
+                      alt="edit"
+                    />
+                  </Link>{" "}
                 </button>
                 <button type="submit" className="delete">
                   <img
                     className="delete-icon"
-                    src="images/delete.png"
+                    src="../images/delete.png"
                     alt="delete"
                   />
                 </button>
@@ -110,7 +128,11 @@ export default function dashboard() {
             <div className="addnew-content">Want to add a New Day</div>
 
             <button type="submit" className="submit-btn">
-              <Link to="add-hall" className="addNew-Hall" id="addHallButton">
+              <Link
+                to="/admin/add-hall"
+                className="addNew-Hall"
+                id="addHallButton"
+              >
                 Add New
               </Link>
             </button>

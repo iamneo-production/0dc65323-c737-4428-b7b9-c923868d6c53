@@ -52,10 +52,13 @@ html,
   border-radius: 12px;
   height: 50px;
   border: none;
+  color: black;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .editProfile-input::placeholder {
-  color: black;
+  color: #4b4646;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -63,6 +66,10 @@ html,
 }
 .editProfile-input:focus {
   outline: none;
+}
+
+.editProfileSave {
+  text-decoration: none;
 }
 
 .savechanges {

@@ -1,0 +1,2 @@
+-- https://www.phpmyadmin.co/db_structure.php?server=1&db=sql6444682
+-- Server: sql6.freesqldatabase.com

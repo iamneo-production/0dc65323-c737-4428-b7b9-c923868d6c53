@@ -2,41 +2,51 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./css/navbar.css";
 
-export default function navbar() {
+export default function Navbar() {
   return (
     // <nav>
     <div className="nav" id="adminNavbar">
       <div className="nav-left">
         <div>
-          <Link to="/" className="nav-link logo" exact>
+          <Link to="/admin" className="nav-link logo" exact>
             Neo Party
           </Link>
         </div>
         <div>
-          <Link to="/" className="nav-link" exact id="adminDashboardLink">
+          <Link to="/admin" className="nav-link" exact id="adminDashboardLink">
             <img
               className="dashboard-icon"
-              src="images/dashboard.png"
+              src="../images/dashboard.png"
               alt="dashboard"
             />{" "}
             Dashboard
           </Link>
         </div>
         <div>
-          <Link to="/profile" className="nav-link" id="adminProfileLink" exact>
+          <Link
+            to="/admin/profile"
+            className="nav-link"
+            id="adminProfileLink"
+            exact
+          >
             <img
               className="profile-icon"
-              src="images/profile.png"
+              src="../images/profile.png"
               alt="profile"
             />{" "}
             Profile
           </Link>
         </div>
         <div>
-          <Link to="/booking" className="nav-link" id="adminBookingLink" exact>
+          <Link
+            to="/admin/booking"
+            className="nav-link"
+            id="adminBookingLink"
+            exact
+          >
             <img
               className="booking-icon"
-              src="images/booking.png"
+              src="../images/booking.png"
               alt="booking"
             />{" "}
             Booking
@@ -45,7 +55,7 @@ export default function navbar() {
       </div>
       <div className="nav-right">
         <Link
-          to="/login"
+          to="/admin/login"
           className="nav-link nav-link-right"
           id="adminLogoutButton"
           exact
