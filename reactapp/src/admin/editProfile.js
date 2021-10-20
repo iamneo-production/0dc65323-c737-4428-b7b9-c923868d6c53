@@ -1,16 +1,19 @@
 import React from "react";
 import "./css/editProfile.css";
 import Navbar from "../admin/navbar";
+import { Link } from "react-router-dom";
 
-export default function editProfile() {
+export default function EditProfile() {
   return (
     <>
       <Navbar />
       <div className="edit-profile" id="adminEditBox">
         <form id="edit-profile">
-          <button type="submit" className="back">
-            <img src="images/back.png" alt="back" /> back
-          </button>
+          <Link to="/admin/profile">
+            <button type="submit" className="back">
+              <img src="../images/back.png" alt="back" /> back
+            </button>
+          </Link>
           <br />
           <label className="editProfile-label">Name</label>
           <div className="form-group">
@@ -72,9 +75,15 @@ export default function editProfile() {
             />
           </div>
 
-          <button type="submit" className="savechanges" id="profileEditButton">
-            Save Changes
-          </button>
+          <Link to="/admin/profile" className="editProfileSave">
+            <button
+              type="submit"
+              className="savechanges"
+              id="profileEditButton"
+            >
+              Save Changes
+            </button>
+          </Link>
         </form>
       </div>
     </>

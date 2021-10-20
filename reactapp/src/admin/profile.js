@@ -5,7 +5,7 @@ import "./css/profile.css";
 import img from "./profilepic.jfif";
 import { Link } from "react-router-dom";
 
-export default function profile() {
+export default function Profile() {
   // const screenClass = useScreenClass();
   return (
     <>
@@ -53,9 +53,9 @@ export default function profile() {
               alt="profile-pic"
             />
           </div>
-          <Link to="/edit-profile" className="editProfile-btn">
+          <Link to="/admin/edit-profile" className="editProfile-btn">
             <button type="submit" className="submit" id="editAdminProfile">
-              <img src="images/edit.png" alt="edit" width="18" height="16" />{" "}
+              <img src="../images/edit.png" alt="edit" width="18" height="16" />{" "}
               <span className="edit-text">Edit Profile</span>
             </button>
           </Link>

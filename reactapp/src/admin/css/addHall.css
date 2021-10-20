@@ -44,10 +44,12 @@ html,
   border-radius: 12px;
   height: 50px;
   border: none;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .addHall-input::placeholder {
-  color: black;
+  color: #4b4646;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -71,4 +73,8 @@ html,
 .adddate:hover {
   background-color: #b65897;
   color: white;
+}
+
+.addHallSave {
+  text-decoration: none;
 }

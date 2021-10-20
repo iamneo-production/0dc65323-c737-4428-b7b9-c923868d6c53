@@ -27,6 +27,38 @@ export default function Booking() {
               <td>Days</td>
               <td>Total Price</td>
             </tr>
+            <tr>
+              <td>Booking ID</td>
+              <td>User ID</td>
+              <td>Event Date</td>
+              <td>Hall Price</td>
+              <td>Days</td>
+              <td>Total Price</td>
+            </tr>
+            <tr>
+              <td>Booking ID</td>
+              <td>User ID</td>
+              <td>Event Date</td>
+              <td>Hall Price</td>
+              <td>Days</td>
+              <td>Total Price</td>
+            </tr>
+            <tr>
+              <td>Booking ID</td>
+              <td>User ID</td>
+              <td>Event Date</td>
+              <td>Hall Price</td>
+              <td>Days</td>
+              <td>Total Price</td>
+            </tr>
+            <tr>
+              <td>Booking ID</td>
+              <td>User ID</td>
+              <td>Event Date</td>
+              <td>Hall Price</td>
+              <td>Days</td>
+              <td>Total Price</td>
+            </tr>
           </tbody>
         </table>
       </div>
